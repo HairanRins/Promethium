@@ -33,3 +33,33 @@ Les algorithmes sont importants, mais sans les bonnes structures de données, il
 
 ![algo7](https://github.com/user-attachments/assets/dfcd0fdd-92bc-40a5-996b-b09f05a541a6)
 
+Voici les 7 complexités essentielles :
+
+1. O(1) - Temps constant
+Le temps d'exécution ne change pas, peu importe la taille des données.
+Ex : Accéder à un élément d'un tableau par son index.
+
+2. O(log n) - Temps logarithmique
+Le temps augmente doucement quand les données grandissent.
+Ex : Recherche binaire dans un tableau trié.
+
+3. O(n) - Temps linéaire
+Le temps augmente proportionnellement aux données.
+Ex : Parcourir un tableau pour trouver un élément.
+
+4. O(n log n) - Temps linéarithmique
+Un peu plus lent que le temps linéaire.
+Ex : Les algorithmes de tri comme QuickSort.
+
+5. O(n²) - Temps quadratique
+Le temps augmente au carré de la taille des données.
+Ex : Le tri à bulles qui compare chaque paire d'éléments.
+
+6. O(2^n) - Temps exponentiel
+Le temps double à chaque nouvelle donnée.
+Ex : Générer tous les sous-ensembles possibles.
+
+7. O(n.) - Temps factoriel
+Le temps explose littéralement avec la taille des données.
+Ex : Générer toutes les permutations possibles.
+
