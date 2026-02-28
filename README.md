@@ -1,2 +1,3 @@
 # Promethium
-Dedans je mettrais mes notes et mes connaissances ou acquis en algorithmes et structures de données
+
+Cet espace centralise mes acquis théoriques et pratiques en algorithmique et structures de données.
