@@ -41,7 +41,9 @@ Supposons que vous cherchiez un mot dans le dictionnaire. Le dictionnaire contie
 Une recherche simple peut nécessiter 240 000 étapes si le mot recherché est le tout dernier du livre. À chaque étape de la recherche binaire, vous divisez
 le nombre de mots par deux jusqu’à ce qu’il n’en reste qu’un seul.
 
-(illustration)
+<img width="737" height="105" alt="binary-steps" src="https://github.com/user-attachments/assets/dabef2b3-6550-499c-a7f5-02ed39273885" />
+
+<img width="558" height="212" alt="binary-steps2" src="https://github.com/user-attachments/assets/09b1423b-3dbe-44b5-9ed9-41243e44d512" />
 
 La recherche binaire nécessitera donc 18 étapes, soit une différence significative ! En général, pour toute liste de _n_ éléments, la recherche binaire nécessitera log₂ _n_ étapes dans le pire des cas,
 tandis que la recherche simple nécessitera _n_ étapes.
