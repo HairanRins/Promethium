@@ -31,3 +31,36 @@ Trop bas, mais vous venez d'éliminer la _moitié_ des nombres ! Vous savez mai
 Trop élevé, mais vous réduisez encore de moitié le nombre restant !
 
 _Avec la recherche binaire, vous devinez le nombre du milieu et éliminez la moitié des nombres restants à chaque fois_. Le suivant est 63 (à mi-chemin entre 50 et 75).
+
+Quel que soit le nombre auquel je pense, vous pouvez le deviner en sept essais maximum, car vous éliminez de nombreux nombres à chaque essai !
+
+Supposons que vous cherchiez un mot dans le dictionnaire. Le dictionnaire contient :
+
+240 000 mots. Dans le pire des cas, combien d’étapes pensez-vous que chaque recherche nécessitera ?
+
+Une recherche simple peut nécessiter 240 000 étapes si le mot recherché est le tout dernier du livre. À chaque étape de la recherche binaire, vous divisez
+le nombre de mots par deux jusqu’à ce qu’il n’en reste qu’un seul.
+
+(illustration)
+
+La recherche binaire nécessitera donc 18 étapes, soit une différence significative ! En général, pour toute liste de _n_ éléments, la recherche binaire nécessitera log₂ _n_ étapes dans le pire des cas,
+tandis que la recherche simple nécessitera _n_ étapes.
+
+**Logarithmes**
+
+_Calculer log₁₀ 100 revient à se demander : « Combien de fois faut-il multiplier 10 pour obtenir 100 ?»_ La réponse est 2 : 10 × 10. Donc log₁₀ 100 = 2. _Les logarithmes sont l’inverse des exponentielles._
+
+10² = 100 ⇔ log₁₀ 100 = 2
+10³ = 1000 ⇔ log₁₀ 1000 = 3
+
+2³ = 8 ⇔ log₂ 8 = 3
+2⁴ = 16 ⇔ log₂ 16 = 4
+2⁵ = 32 ⇔ log₂ 32 = 5
+
+Pour une recherche binaire, il faudra examiner logₙ éléments dans le pire des cas. Pour une liste de 8 éléments,
+log₈ = 3, car 2³ = 8. Il faudra donc en examiner 3 au maximum. Pour une liste de 1 024 éléments, log₁₀₂₄ = 10, car 2¹⁰ = 1 024. Il faudra donc en examiner 10 au maximum.
+
+**Remarque :**
+La recherche binaire ne fonctionne que si votre liste est triée.
+Par exemple,les noms d’un annuaire téléphonique sont triés par ordre alphabétique ; vous pouvez donc
+utiliser la recherche binaire pour trouver un nom. Que se passerait-il si les noms n’étaient pas triés ?
