@@ -66,3 +66,12 @@ log₈ = 3, car 2³ = 8. Il faudra donc en examiner 3 au maximum. Pour une liste
 La recherche binaire ne fonctionne que si votre liste est triée.
 Par exemple,les noms d’un annuaire téléphonique sont triés par ordre alphabétique ; vous pouvez donc
 utiliser la recherche binaire pour trouver un nom. Que se passerait-il si les noms n’étaient pas triés ?
+
+### Temps d’exécution
+
+En général, il est préférable de choisir l’algorithme le plus efficace, que l’on cherche à optimiser le temps ou l’espace.
+Revenons à la recherche binaire. Combien de temps gagne-t-on en l'utilisant ?
+La première approche consistait à vérifier chaque nombre, un par un.
+Pour une liste de 100 nombres, il faut jusqu'à 100 essais.
+Pour une liste de 4 milliards de nombres, il faut jusqu'à 4 milliards d'essais.
+Le nombre maximal d'essais est donc égal à la taille de la liste. On parle alors de _temps linéaire_.
